@@ -46,7 +46,7 @@ public class servletBase extends HttpServlet {
     	try{
 			conn = DriverManager.getConnection("jdbc:mysql://localhost/base?" +
             "user=martin&password=");			
-			       
+			 
 						
 			// Display the contents of the database in the console. 
 			// This should be removed in the final version
